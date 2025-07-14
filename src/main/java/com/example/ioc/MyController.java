@@ -14,7 +14,7 @@ public class MyController { // Servlet
 
     @RequestMapping("/test")
     public String test() {
-        printer.print("Ryan test5");
+        printer.print("Ryan test6");
         return "Hello World";
     }
 }
