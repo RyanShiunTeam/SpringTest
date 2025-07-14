@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class MyController {
+public class MyController { // Servlet
 
     @Autowired
     @Qualifier("hpPrinter")
@@ -18,3 +18,4 @@ public class MyController {
         return "Hello World";
     }
 }
+// http://localhost:8080/Bank/queryActivity
